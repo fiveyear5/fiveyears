@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>✰ five years ✰</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		
+
+
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Un click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">Desde nuestro primer beso han pasado</h2>
+			<div id="timer">
+				<b id="d"></b> días 
+				<b id="h"></b> horas
+				<b id="m"></b> minutos
+				<b id="s"></b> segundos
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<div id = "audiofinal">
+			<audio controls loop>
+				<source src="music/amorcompleto.mp3" type="audio/mpeg">
+				Your browser does not support the audio.
+			</audio>
+		</div>
+		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.jpg", "pic/pic2.png", "pic/pic3.png", "pic/pic4.png", "pic/pic5.png", "pic/pic6.png",
+			"pic/pic7.png", "pic/pic8.png", "pic/pic9.png", "pic/pic10.png", "pic/pic11.png", "pic/pic12.png", "pic/pic13.png",
+			"pic/pic14.png", "pic/pic15.png", "pic/pic16.png", "pic/pic17.png", "pic/pic18.png", "pic/pic19.png", "pic/pic20.png",
+			"pic/pic21.png", "pic/pic22.png", "pic/pic23.png", "pic/pic24.png", "pic/pic25.png"];
+			var imageIndex = 0;
+			var txtArray = ["Nuestra primera foto (?)", "Bariloche ♡", "Día de ropa de color jiji",
+			 "Más Bariloche ♡", "Y más ♡", "Dígame licenciado, licenciado", "In the center",
+			 "Fiesta de graduación (de nada por la foto yie)", "Fotito en el estadio 1.0", "Full efecto", "Aiuda no veo",
+			 "Care' locos", "Ahora sí veo :D", "La felicidad asdjdsa", "Lo único bueno del invierno (tú)", "Lo único bueno del invierno 2 (tú)",
+			"Santiasco", "Más bonitos ♡", "Más sol que foto ups", "Los más wapos ♡", "Día de deporte :o", "Fotito en el estadio 2.0", "Fotito pandémica",
+			"Feliz navidad :3", "Por muchas fotitos más contigo♡"];
+			 var len = imageArray.length;
+			var t = 0;
+
+
+			
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
